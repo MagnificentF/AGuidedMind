@@ -1,0 +1,19 @@
+{
+  "name": "aguidedmind",
+  "version": "0.0.0",
+  "description": "Stop letting negative subconscious beliefs dictate your life. Guide your mind.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagnificentF/AGuidedMind.git"
+  },
+  "author": "Fae Comiskey <magnificentf@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/MagnificentF/AGuidedMind/issues"
+  },
+  "homepage": "https://github.com/MagnificentF/AGuidedMind#readme"
+}
