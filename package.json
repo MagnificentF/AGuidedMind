@@ -4,7 +4,9 @@
   "description": "Stop letting negative subconscious beliefs dictate your life. Guide your mind.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "surge --domain aguidedmind.surge.sh",
+    "start": "surge"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/MagnificentF/AGuidedMind/issues"
   },
-  "homepage": "https://github.com/MagnificentF/AGuidedMind#readme"
+  "homepage": "https://github.com/MagnificentF/AGuidedMind#readme",
+  "devDependencies": {
+    "surge": "^0.18.0"
+  }
 }
