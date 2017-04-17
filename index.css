@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
@@ -17,7 +17,6 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-
 }
 :link, :visited, :hover, :active {
   color: inherit;
@@ -57,14 +56,22 @@ nav a {
   text-align: center;
 }
 
+input, textarea, button {
+  width: 100%;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
 .selected {
   color: cadetblue;
 }
 
 @media (min-width: 640px) {
+  
   body {
     padding-top: 4em; /* create space for the nav */
   }
+  
   section {
     background-clip: content-box;
     margin: 15%;
@@ -72,11 +79,11 @@ nav a {
     padding-top: 4em;
     margin-top: -4em;
   }
-
+  
   section > * {
     margin: 1em;
   }
-
+  
   nav {
     position: fixed;
     top: 0;
@@ -85,9 +92,11 @@ nav a {
     display: flex;
     justify-content: center;
   }
+  
   nav:before {
     display: none;
   }
+  
   nav a {
     display: inline-block;
   }
